@@ -1,0 +1,35 @@
+{
+  "name": "newest-whatsapp-proto",
+  "version": "1.0.0",
+  "description": "Fetch the latest WhatsApp protobuf definitions shipped with WhiskeySockets/Baileys and patch older Baileys installs with the newest proto.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "proto-fetcher": "bin/proto-fetcher.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormofhoney/newest-whatsapp-proto.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "proto",
+    "protobuf",
+    "whatsapp-proto",
+    "wa-proto"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "start": "node bin/proto-fetcher.js --help"
+  }
+}
